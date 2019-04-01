@@ -8,6 +8,7 @@ public class HelloService {
     private HelloProperties properties;
 
     public String sayToNewYear(){
+        System.out.println("心情略down");
         return properties.getFirstWord() + " 2019 " + properties.getLastWord();
     }
 
